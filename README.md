@@ -1,7 +1,5 @@
 # Project - Airport Experience
-## Subtitle  
-</br>
-
+## An introduction to Mobility-as-a-Service, Multi-Modal Mobility and Ecosystems.  
 
 # Index
 #### [Introduction](#introduction-1)
@@ -18,18 +16,16 @@
 #### [Results](#results-1)
 #### [Submission](#submission-1)
 #### [References](#references-1)
-</br>
-
 
 # Introduction
 
-This training document is designed for students who will simulate a mobility ecosystem. The goal of the simulation is for students to understand the different components of a mobility ecosystem and how they interact with each other to create a seamless transportation experience for customers.
+This document describes a project to simulate a mobility ecosystem using a customer scenario. The goal of the project is for students to understand the different components of a mobility ecosystem and how they interact with each other to create a seamless transportation experience for customers.
 
 Renting a vehicle in an airport is still a traditional process for many companies: waiting in line, signing documents, checking the license, getting insurance, etc. This process is time consuming and ripe for digitalization.
 
 Car sharing scenarios and business models are being extended to compete with traditional business models like airport rental. In order to disrupt the industry, they have to offer an improved airport experience. This requires the coordination of multiple participants in the mobility ecosystem through applications in the cloud.
 
-This project will create such an example by integrating vehicle connectivity, autonomous driving and line of business applications for an enhanced user experience.
+This project will use this example to integrating vehicle connectivity, autonomous driving and line of business applications for an enhanced user experience.
 
 # Background Information
 
@@ -37,20 +33,24 @@ In today's world, transportation options are no longer limited to just one mode,
 
 Digital technologies have played a significant role in enabling multi-modal mobility and have revolutionized the way people plan and book their transportation options. By using digital platforms, customers can access real-time information about different modes of transportation, such as schedules, routes, and availability, all in one place.
 
-Furthermore, digital platforms have made it possible for different companies to cooperate and integrate their services to provide a seamless multi-modal transportation experience to customers. For example, a customer may use a single app to book a ride-sharing service to a train station, take a train to their destination, and then use a bike-sharing service to reach their final destination.
+Furthermore, digital platforms have made it possible for different companies to cooperate and integrate their services to provide a seamless multi-modal transportation experience to customers. For example, a customer may use a single app to book a ride-sharing service to a airport, take a plane to their destination, and then use a car-sharing service to reach their final destination.
 
 However, this level of cooperation between different companies requires careful coordination and integration of digital technologies. Companies need to work together to ensure that their services are interoperable and can seamlessly connect with each other. This includes developing common standards for data sharing, payment systems, and customer information management.
 
-This training document will explore the concept of cooperation between different companies using digital technologies for multi-modal mobility in more detail using the integration of a trips planning app, a car sharing company and a semi-autonomous vehicle.
+This project will explore the concept of cooperation between different companies using digital technologies for multi-modal mobility in more detail using the integration of a trips planning app, a car sharing company and a semi-autonomous vehicle.
 
  By the end of the project, students will have a better understanding of how digital technologies are enabling cooperation between different companies to provide a more convenient and sustainable multi-modal transportation experience to customers.
 
 # Customer Scenario
 
-We will create this project based on a near-future  scenario based on a customer **Persona**.
+We will create this project based on a near-future  scenario based on a customer **Persona** called Andrea.
 
-*Andrea is a business owner and frequent flyer member. Andrea travels at least once a month for work. Most of these trips are for a short duration.
-Andrea is a member of a premium subscription-based car service with a fixed monthly  payment. As an add-on package, Andrea can also use courtesy vehicles in other cities.*
+*Andrea is a business owner and frequent flyer member. Andrea travels at least once a month for work. Most of these trips are for a short duration.*
+*Andrea is a member of a premium subscription-based car service with a fixed monthly  payment. As an add-on package, Andrea can also use rental vehicles in other cities for an additional fee.*
+
+## Scenario Description
+
+<video src="video/airport_experience.mp4" controls ></video>
 
 | Title	| Description	| Notes |
 |-------|-------------|-------|
@@ -64,8 +64,6 @@ Andrea is a member of a premium subscription-based car service with a fixed mont
 | Dropping the Car  | Andrea drives into the designated return area and leaves the vehicle. The vehicle drives automatically into the restricted parking area. Her app notifies her that the vehicle has been **returned successfully**.  | Driving the vehicle into the designated return area yields control of the car. The vehicle returns automatically and a confirmation is send to the app
 | Vehicle Processing |As the vehicle enters the restricted parking area, a set of cameras performs a full scan of the vehicle exterior and interior.  | The system documents the state and any potential damage to the car. 	
 | Ready for the next customer | The vehicle receives a notification to drive to an available cleaning reception slot. The vehicle state is documented including parameters such as current charge level, mileage and condition. The vehicle returns itself to the pool, ready to be used again. | Vehicle moves automatically to the “washing” designated area, and then moves back into “storage”
-
-
 
 # Project Goals & Objectives
 
@@ -81,13 +79,12 @@ Andrea is a member of a premium subscription-based car service with a fixed mont
     * Describe and implement communication between multiple parties
     * Communicate with the vehicle
 * Create the necessary user interfaces with a focus on customer experience.
-    * Reservation
-    * User preferences in vehicle
-    * Trips History
-* Create and implement a sample billing & costing model
-    * Based on Trips / Distance
-    * Based on Energy consumption
-
+    * Reservation of trips
+    * Stting user preferences in vehicle
+    * Managing a trips history
+* Create and implement a sample billing & costing model between companies and to the end customer.
+    * Calculate price to customer based on Trips / Distance
+    * Calculate costs to car sharing company based on Energy consumption
 
 # Technical Requirements
 
@@ -117,16 +114,6 @@ The *Airport Experience* project can be divided into 5 main components: the trip
 * The car-sharing service provides customers with access to vehicles. It communicates with the telemetry platform to coordinate tasks / mission (pick up a customer in a location). It also keeps the user preferences. It receives the status of the vehicles to control scheduling and trip reports for billing purposes.
 * The charging infrastructure ensures the availability of electric vehicles. The car sharing element can coordinate charging (to optimize costs). The charging infrastructure keeps track of consumption for billing.
 * The telemetry platform that collects data from the vehicles, processes it in real-time, and provides insights into vehicle usage. It also receives commands for performing a task / mission. It notifies the car sharing platform when it has arrived to a location (geofences). The telemetry platform is also responsible for setting user preferences.
-
-# Software Design
-
-text
-
-
-# Implementation
-
-text
-
 
 # Project Timeline
 
