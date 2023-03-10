@@ -2,13 +2,12 @@
 ## An introduction to Mobility-as-a-Service, Multi-Modal Mobility and Ecosystems.  
 
 # Index
+
 #### [Introduction](#introduction-1)
 #### [Background Information](#background-information-1)
 #### [Project Goals & Objectives](#project-goals-and-objectives)
 #### [Technical Requirements](#technical-requirements-1)
 #### [System Architecture](#system-architecture-1)
-#### [Software Design](#software-design-1)
-#### [Implementation](#implementation-1)
 #### [Project Timeline](#project-timeline-1)
 #### [Collaboration and Teamwork](#collaboration-and-teamwork-1)
 #### [Mentorship and Support](#mentorship-and-support-1)
