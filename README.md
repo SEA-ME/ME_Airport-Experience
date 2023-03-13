@@ -49,7 +49,7 @@ We will create this project based on a near-future  scenario based on a customer
 
 ## Scenario Description
 
-<video src="video/airport_experience.mp4" controls ></video>
+[Watch the video](video/airport_experience.mp4)
 
 | Title	| Description	| Notes |
 |-------|-------------|-------|
